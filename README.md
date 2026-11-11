@@ -1,4 +1,4 @@
-<img src="imgs/SINTEF_Logo.png" alt="SINTEF logo" align="right" width="100">
+<img src="imgs/SINTEF_Logo.png" alt="SINTEF logo" align="right" width="95">
 
 # Sim2Swim: Zero-Shot Velocity Control for Agile AUV Maneuvering in 3 Minutes
 
