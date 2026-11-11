@@ -1,0 +1,13 @@
+/**:
+  ros__parameters:
+    topics:
+      # Subscribers
+      desired_velocity_body: /guidance/desired_velocity_body
+      desired_quaternion: /guidance/quaternion
+      angular_velocity: /bluerov2/angular_velocity
+      quaternion: /bluerov2/quaternion
+      arm_status: /bluerov2/arm_status
+      in_auto: /bluerov2/in_auto
+      velocity_body: /observer/estimate/linear_velocity_body
+      # Publishers
+      tau_pwm: /controller/tau_pwm

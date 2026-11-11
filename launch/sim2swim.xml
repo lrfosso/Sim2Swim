@@ -1,0 +1,6 @@
+<launch>
+  <arg name="config" default="$(find-pkg-share sim2swim)/config/sim2swim.yaml"/>
+  <node pkg="sim2swim" exec="sim2swim_node.py" name="sim2swim" output="screen">
+    <param from="$(var config)"/>
+  </node>
+</launch>
