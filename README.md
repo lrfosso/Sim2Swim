@@ -1,4 +1,4 @@
-<img src="imgs/SINTEF_Logo.png" alt="SINTEF logo" align="right" width="150">
+<img src="imgs/SINTEF_Logo.png" alt="SINTEF logo" align="right" width="100">
 
 # Sim2Swim: Zero-Shot Velocity Control for Agile AUV Maneuvering in 3 Minutes
 
@@ -17,7 +17,7 @@ Sim2Swim is a learned velocity-control policy for the BlueROV2 in the heavy conf
 The policy receives a 16-dimensional observation vector $\boldsymbol{o}$:
 
 $$
-\boldsymbol{o} = [q_e, v_d - v,\; \omega, z_v, z_q]
+\boldsymbol{o} = [q_e, v_d - v, \omega, z_v, z_q]
 $$
 
 where $q_e$ is the attitude error, $v_d$ is desired body velocity, $v$ is measured body velocity, $\omega$ is measured angular velocity, $z_v$ is the integral of velocity error, and $z_q$ is the integral of quaternion error.
